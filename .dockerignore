@@ -1,0 +1,14 @@
+node_modules
+**/node_modules
+**/.nuxt
+**/.output
+.git
+.env*
+**/__pycache__
+artifacts
+**/.venv
+**/venv
+**/.cache
+**/logs
+**/*.log
+releases

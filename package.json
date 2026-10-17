@@ -1,0 +1,19 @@
+{
+  "name": "draiq",
+  "version": "0.1.1",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm --prefix web run dev",
+    "dev:server": "python -m uvicorn server.main:app --host 127.0.0.1 --port 8011 --reload --reload-dir server",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start",
+    "typecheck": "npm --prefix web run typecheck",
+    "pack:editor": "node scripts/pack-editor.mjs"
+  }
+}

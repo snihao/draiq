@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Tailwind v4 使用根节点 .dark 与 Naive UI 主题状态保持一致。 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source "../../components";
+@source "../../pages";

@@ -1,0 +1,65 @@
+{
+  "name": "@draiq/editor",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "exports": {
+    ".": "./nuxt.config.ts",
+    "./*": "./*"
+  },
+  "scripts": {
+    "dev": "nuxt dev --host 127.0.0.1 --port 8010",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "build:dev": "nuxt build",
+    "build:pro": "nuxt build",
+    "prepare": "nuxt prepare",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt prepare && vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.14",
+    "@tailwindcss/postcss": "^4.1.10",
+    "autoprefixer": "^10.4.21",
+    "dxf-render": "^1.7.1",
+    "nuxt": "^3.17.1",
+    "nuxtjs-naive-ui": "^1.0.2",
+    "naive-ui": "^2.41.0",
+    "postcss": "^8.5.6",
+    "sass": "^1.87.0",
+    "three": "^0.180.0",
+    "tailwindcss": "^4.1.10",
+    "unplugin-auto-import": "^19.1.2",
+    "unplugin-vue-components": "^28.5.0",
+    "uuid": "^13.0.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/three": "^0.180.0",
+    "sass-embedded": "^1.87.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.7"
+  },
+  "version": "0.1.1",
+  "description": "Draiq — A lightweight, browser-based 2D drawing editor",
+  "files": [
+    "app.vue",
+    "error.vue",
+    "nuxt.config.ts",
+    "tsconfig.json",
+    "api",
+    "assets",
+    "components",
+    "composables",
+    "pages",
+    "plugins",
+    "public",
+    "types",
+    "utils",
+    "README.md",
+    "LICENSE"
+  ]
+}
