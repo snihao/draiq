@@ -150,6 +150,10 @@ draiq/
 
 开发约定和提交检查见 [贡献指南](CONTRIBUTING.md)。
 
+## 社区
+
+感谢 [LINUX DO](https://linux.do) 社区提供开放、友善的技术交流平台。
+
 ## 开源许可
 
 本项目采用 [MIT License](LICENSE)，允许个人和商业使用、修改及分发，使用时须保留版权声明和许可文本。
